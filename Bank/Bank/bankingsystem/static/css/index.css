@@ -1,0 +1,23 @@
+img{
+    position: absolute;
+}
+
+h2{
+    position: relative;
+}
+
+a button{
+    position: relative;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-radius: 25px; 
+    padding: 7px 9px; 
+    border-width: 3px; 
+    background-color: white; 
+    box-shadow: 3px 3px 3px red; 
+    color: black;
+
+}

@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Page</title>
+
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    
+    <!-- Boot strap - link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+   <div class="container-fluid">
+    
+            <img src="{% static 'images/img.gif' %}" alt="" width="100%" height="100px">
+            <h2 class="text-light p-3" style=" text-shadow: 5px 5px 5px blue;font-family: 'Bungee Spice', cursive;
+            font-family: 'Libre Baskerville', serif;
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif; font-weight: 1000;"><center>Banking System</center></h2></div>
+
+   </div>
+
+   <div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <img src="{% static 'images/bank.gif' %}" alt="" width="100%" height="700px">
+          
+                <a href="./account/bank"><button type="button" class="btn btn-outline-danger mt-5 bg-warning" name="button" style="margin-left: 400px;"><b>Banking-System</b></button></a>
+                <a href="./trans/reg"><button type="button" class="btn btn-outline-danger mt-5 bg-warning" name="button" style="margin-left: 550px;"><b>Register</b></button></a>
+        </div>
+    </div>
+
+   </div>
+
+   <div class="container-fluid mt-5">
+    <div class="row">
+        <div class="col-4">
+            <a href="./account/deposit"><button type="button" class="btn btn-outline-danger mt-3 bg-warning" name="button" style="margin-left: 250px;"><b>Deposit</b></button></a>
+        </div>
+        <div class="col-4">
+            <a href="./account/draw"><button type="button" class="btn btn-outline-danger mt-3 bg-warning" name="button" style="margin-left: 250px;"><b>Withdraw</b></button></a>
+        </div>
+        <div class="col-4">
+            <a href="./account/report"><button type="button" class="btn btn-outline-danger mt-3 bg-warning" name="button" style="margin-left: 150px;"><b>Transaction Report</b></button></a>
+        </div>
+
+    </div>
+
+   </div>
+
+   <a class="btn btn-outline-danger mt-5" href="/accounts/logout" type="button" style="margin-left: 1100px; border: 3px solid red; width: 10%; margin-left: 1350px;border-radius: 25px; color: blue; box-shadow: 3px 3px 3px 3px blue;position: relative;"><b>Log-Out</b></a>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+    
